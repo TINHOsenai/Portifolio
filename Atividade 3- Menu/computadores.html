@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <title>PCS</title>
+</head>
+<body>
+    <header>
+       
+        <!DOCTYPE html>
+        <html lang="pt-br">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>TECH</title>
+            <script>
+                function mudaFoto(item) {
+                    document.getElementById('icone').src=item
+                   
+                }
+            </script>
+            <style>
+                * {
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                }
+                body {
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                }
+                header {
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    width: 100%;
+                    height: 100px;
+                    background-color: rgb(0, 0, 0);
+                }
+                .logo {
+                    display: flex;
+                    align-items: center;
+                }
+                header .logo img {
+                    margin-right: 3em;
+                    width: 350px;
+                }
+                header nav li {
+                    display: inline;
+                    margin-right: 3em;
+                }
+                header nav li a {
+                    text-decoration: none;
+                    color: rgb(255, 255, 255);
+                    position: relative;
+                    transition: color 0.3s ease;
+                }
+                header nav li a::before {
+                    content: "";
+                    position: absolute;
+                    width: 100%;
+                    height: 2px;
+                    bottom: 0;
+                    left: 0;
+                    background-color: rgb(255, 255, 255);
+                    transform: scaleX(0);
+                    transform-origin: right;
+                    transition: transform 0.3s ease;
+                }
+                header nav li a:hover {
+                    color: rgb(255, 0, 0);
+                }
+                header nav li a:hover::before {
+                    transform: scaleX(1);
+                    transform-origin: left;
+                }
+               
+            </style>
+        
+        </head>
+        <body>
+            <header>
+                <div class="logo">
+                    <img src="img/logo1 (1).png" id="icone">
+                </div>
+                <nav>
+                    <ul class="menu">
+                        <li><a href="#" onmouseover="mudaFoto('img/casa.png')" onmouseout="mudaFoto('img/logo1 (1).png')">Principal</a></li>
+                        <li><a href="computadores.html" onmouseover="mudaFoto('img/pc.png')" onmouseout="mudaFoto('img/logo1 (1).png')">Computadores</a></li>
+                        <li><a href="#" onmouseover="mudaFoto('img/game.png')" onmouseout="mudaFoto('img/logo1 (1).png')">Video games</a></li>
+                        <li><a href="#" onmouseover="mudaFoto('img/celular.png')" onmouseout="mudaFoto('img/logo1 (1).png')">Celulares</a></li>
+                        <li><a href="#" onmouseover="mudaFoto('img/ctt.png' )" onmouseout="mudaFoto('img/logo1 (1).png')">Contato</a></li>
+                        <li><a href="#" onmouseover="mudaFoto('img/quem.png')" onmouseout="mudaFoto('img/logo1 (1).png')">Quem somos</a></li>
+                    </ul>
+                </nav>
+            </header>
+    </header>
+    <div class="linha">
+        <div class="col">
+            <a href="">
+                <img src="img/pc1.png" width="100%">
+              </a>
+
+          <h1>OptiPlex 3000 Micro</h1>
+          <button><a href="comprarpc.html">Veja Mais</a></button>
+
+        </div>
+    </div>  
+
+</body>
+</html>
