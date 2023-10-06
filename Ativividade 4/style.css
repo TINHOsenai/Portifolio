@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #2B1100;
+}
+
+#menu {
+    height: 80px;
+    background-color: #2B1100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu ul{
+    list-style: none;
+}
+
+#menu ul li{
+    display: inline;
+
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: #FFA600;
+    font-size: 25px;
+    padding: 24px 50px 24px 50px;
+    font-weight: 900;
+   
+   
+}
+#menu ul li a:hover{
+    background-color: #FFA600;
+    color: #2B1100;
+}
+
+
+#topo {
+    width: 80%;
+    height: 550px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logo {
+    width: 50%;
+    height: 450px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo img {
+    height: 100%;
+}
+
+#dogs {
+    width: 50%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dogs img{
+    width: 100%;
+}
+
+#slogan {
+    width: 85%;
+    height: 130px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+#servicos {
+    height: 748px;
+    background-color: #FFA600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#servicos #servicosbox1 {
+    width: 45%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 40px;
+}
+
+#servicos #servicosbox1 h2{
+    font-size: 40px;
+    text-align: center;
+}
+
+#servicos #servicosbox1 ul {
+    margin-top: 30px;
+    margin-left: -60px;
+}
+
+#servicos #servicosbox2 {
+    width: 50%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#servicos #servicosbox2 img {
+    width: 90%;
+    border: 10px solid #2B1100;
+    border-radius: 10px;
+}
+
+#produtos {
+    height: 780px;
+    background-color: #fff;
+    color: #2B1100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#produtos article, #produtos figure {
+    width: 50%;
+    height: 390px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#produtos img {
+    width: 70%;
+}
+
+#produtos article h2 {
+    font-size: 50px;
+    margin: 20px;
+}
+
+#produtos p {
+    font-size: 25px;
+    font-weight: 900;
+    margin: 30px;
+}
+
+#produtos #racao {
+    padding-top: 50px;
+    color: #FFA600;
+}
+
+#marcas {
+    height: 500px;
+    padding: 10px;
+    text-align: center;
+}
+
+#marcas img {
+    width: 98%;
+}
+
+#mapa {
+    width: 40%;
+    height: 500px;
+    text-align: center;
+    padding: 30px;
+}
+#mapa img {
+    width: 90%;
+}
+
+
+#contatos {
+    height: 500px;
+    background-color: #2B1100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#endereco {
+    color: #FFA600;
+    width: 60%;
+    height: 500px;
+    padding: 30px;
+    text-align: center;
+}
+#endereco h2 {
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+#endereco p {
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+#contatos2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#whatsapp {
+    width: 50%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#whatsapp figure {
+    width: 100px;
+    height: 110px;
+}
+#whatsapp figure img {
+    height: 100%;
+}
+#whatsapp p {
+    width: 400px;
+    height: 100px;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 5px;
+    font-weight: 800;
+}
+#whatsapp p span {
+    font-size: 40px;
+    font-weight: 900;
+}
+#instagram {
+    width: 50%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#instagram figure {
+    height: 110px;
+}
+#instagram figure img {
+    height: 100%;
+}
+#instagram p {
+    font-size: 40px;
+    font-weight: 900;
+}
+#rodape {
+    height: 100px;
+    background-color: #FFA600;
+    display: flex;
+    justify-content: center;
+}
+#rodape img {
+    display: block;
+    height: 90%;
+}
